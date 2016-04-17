@@ -1,0 +1,58 @@
+﻿@model IEnumerable<WebHospital.Doctor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Qualification)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.Patients)
+        </th>
+    </tr>
+
+@for (var i = 0; i < Model.Count(); ++i )
+{
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => Model.ElementAt(i).FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.ElementAt(i).LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => Model.ElementAt(i).Qualification)
+        </td>
+        <td>
+           <ol>
+               @foreach(var item in Model.ElementAt(i).Patients)
+               {
+                   <li>@item.FullName</li>
+               }
+           </ol>
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ElementAt(i).Id }) |
+            @Html.ActionLink("Details", "Details", new { id = Model.ElementAt(i).Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = Model.ElementAt(i).Id })
+        </td>
+    </tr>
+}
+
+</table>
