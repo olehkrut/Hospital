@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 
-namespace WebHospital.ConfigurationEF
+namespace Hospital.ConfigurationEF
 {
     class DoctorEntityConfiguration : EntityTypeConfiguration<Doctor>
     {

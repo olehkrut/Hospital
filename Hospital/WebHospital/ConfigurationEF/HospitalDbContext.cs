@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using WebHospital.Migrations;
+using Hospital.Migrations;
 
 
-namespace WebHospital.ConfigurationEF
+namespace Hospital.ConfigurationEF
 {
     class HospitalDbContext : DbContext
     {

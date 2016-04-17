@@ -6,10 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using WebHospital;
-using WebHospital.ConfigurationEF;
+using Hospital;
+using Hospital.ConfigurationEF;
 
-namespace WebHospital.Controllers
+namespace Hospital.Controllers
 {
     public class DoctorsController : Controller
     {

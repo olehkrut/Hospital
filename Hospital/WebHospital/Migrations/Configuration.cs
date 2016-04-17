@@ -1,4 +1,4 @@
-namespace WebHospital.Migrations
+namespace Hospital.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -6,14 +6,14 @@ namespace WebHospital.Migrations
     using System.Linq;
     
 
-    internal sealed class Configuration : DropCreateDatabaseAlways<WebHospital.ConfigurationEF.HospitalDbContext>
+    internal sealed class Configuration : DropCreateDatabaseAlways<Hospital.ConfigurationEF.HospitalDbContext>
     {
         public Configuration()
         {
             //AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(WebHospital.ConfigurationEF.HospitalDbContext context)
+        protected override void Seed(Hospital.ConfigurationEF.HospitalDbContext context)
         {
              // This method will be called after migrating to the latest version.
 
