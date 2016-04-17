@@ -28,3 +28,9 @@ E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Newtonsoft.
 E:\University\Programming\Projects\Hospital\Hospital\WebHospital\obj\Debug\Hospital.Web.csprojResolveAssemblyReference.cache
 E:\University\Programming\Projects\Hospital\Hospital\WebHospital\obj\Debug\WebHospital.dll
 E:\University\Programming\Projects\Hospital\Hospital\WebHospital\obj\Debug\WebHospital.pdb
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Hospital.Domain.dll
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Ninject.dll
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Ninject.Web.Common.dll
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Hospital.Domain.pdb
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Ninject.xml
+E:\University\Programming\Projects\Hospital\Hospital\WebHospital\bin\Ninject.Web.Common.xml

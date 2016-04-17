@@ -1,6 +1,4 @@
-﻿
-
-namespace Hospital.Domain
+﻿namespace Hospital.Domain
 {
     public class Patient : Person
     {

@@ -3,3 +3,4 @@ E:\University\Programming\Projects\Hospital\Hospital\Hospital.Domain\bin\Debug\H
 E:\University\Programming\Projects\Hospital\Hospital\Hospital.Domain\bin\Debug\Hospital.Domain.pdb
 E:\University\Programming\Projects\Hospital\Hospital\Hospital.Domain\obj\Debug\Hospital.Domain.dll
 E:\University\Programming\Projects\Hospital\Hospital\Hospital.Domain\obj\Debug\Hospital.Domain.pdb
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.Domain\obj\Debug\Hospital.Domain.csprojResolveAssemblyReference.cache

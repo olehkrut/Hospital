@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using Hospital;
 using Hospital.ConfigurationEF;
+using Hospital.Domain;
 
 namespace Hospital.Controllers
 {
@@ -18,7 +15,7 @@ namespace Hospital.Controllers
         // GET: Patients
         public ActionResult Index()
         {
-            var patients = db.Patients.Include(p => p.Doctor);
+            var patients = db.Patients.Include((p => p.Doctor));
             return View(patients.ToList());
         }
 

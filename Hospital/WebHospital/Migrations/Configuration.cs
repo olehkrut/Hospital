@@ -1,3 +1,5 @@
+using Hospital.Domain;
+
 namespace Hospital.Migrations
 {
     using System;
