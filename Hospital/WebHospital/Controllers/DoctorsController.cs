@@ -4,6 +4,7 @@ using System.Net;
 using System.Web.Mvc;
 using Hospital.ConfigurationEF;
 using Hospital.Domain;
+using Hospital.Domain.Entities;
 
 namespace Hospital.Controllers
 {

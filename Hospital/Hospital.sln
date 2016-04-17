@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Web", "WebHospital
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Domain", "Hospital.Domain\Hospital.Domain.csproj", "{A694A412-9D5D-4DA2-BD2A-059C67574120}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.DataAccess", "Hospital.DataAccess\Hospital.DataAccess.csproj", "{E5615C3F-20BA-4227-B960-BB92E22BAF9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A694A412-9D5D-4DA2-BD2A-059C67574120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A694A412-9D5D-4DA2-BD2A-059C67574120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A694A412-9D5D-4DA2-BD2A-059C67574120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5615C3F-20BA-4227-B960-BB92E22BAF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5615C3F-20BA-4227-B960-BB92E22BAF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5615C3F-20BA-4227-B960-BB92E22BAF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5615C3F-20BA-4227-B960-BB92E22BAF9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

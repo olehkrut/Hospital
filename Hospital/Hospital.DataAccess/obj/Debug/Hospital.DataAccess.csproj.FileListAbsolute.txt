@@ -1,0 +1,12 @@
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\obj\Debug\Hospital.DataAccess.csprojResolveAssemblyReference.cache
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\Hospital.DataAccess.dll.config
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\Hospital.DataAccess.dll
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\Hospital.DataAccess.pdb
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\EntityFramework.dll
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\Hospital.Domain.dll
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\Hospital.Domain.pdb
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\EntityFramework.xml
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\obj\Debug\Hospital.DataAccess.dll
+E:\University\Programming\Projects\Hospital\Hospital\Hospital.DataAccess\obj\Debug\Hospital.DataAccess.pdb
