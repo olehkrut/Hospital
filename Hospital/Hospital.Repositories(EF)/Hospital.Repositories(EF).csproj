@@ -53,6 +53,7 @@
     <Compile Include="Repositories.EF\PatientRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork\UnitOfWorkEF.cs" />
+    <Compile Include="UnitOfWork\UnitOfWorkFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hospital.DataAccess\Hospital.DataAccess.csproj">

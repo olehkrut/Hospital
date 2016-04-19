@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A694A412-9D5D-4DA2-BD2A-059C67574120}</ProjectGuid>
+    <ProjectGuid>{13D00E59-45C9-442F-AB1D-B53344D18971}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hospital.Domain</RootNamespace>
-    <AssemblyName>Hospital.Domain</AssemblyName>
+    <RootNamespace>Hospital.Services</RootNamespace>
+    <AssemblyName>Hospital.Services</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,22 +32,21 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Doctor.cs" />
-    <Compile Include="Entities\Patient.cs" />
-    <Compile Include="Entities\Person.cs" />
-    <Compile Include="IRepositories\IDoctorRepository.cs" />
-    <Compile Include="IRepositories\IGenericRepository.cs" />
-    <Compile Include="IRepositories\IPatientRepository.cs" />
-    <Compile Include="IServices\IDoctorService.cs" />
-    <Compile Include="IServices\IPatientService.cs" />
-    <Compile Include="IUnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="IUnitOfWork\IUnitOfWorkFactory.cs" />
+    <Compile Include="DoctorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\Hospital.Domain\Hospital.Domain.csproj">
+      <Project>{a694a412-9d5d-4da2-bd2a-059c67574120}</Project>
+      <Name>Hospital.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
