@@ -1,10 +1,11 @@
 ﻿using System.Data.Entity;
 using Hospital.DataAccess.Mappings;
+using Hospital.DataAccess.Seed;
 using Hospital.Domain.Entities;
 
 namespace Hospital.DataAccess
 {
-	class HospitalDbContext : DbContext
+	public class HospitalDbContext : DbContext
 	{
 		public DbSet<Doctor> Doctors { get; set; }
 		public DbSet<Patient> Patients { get; set; }

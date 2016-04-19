@@ -1,4 +1,7 @@
 ﻿using System.Web.Mvc;
+using Hospital.Domain.IRepositories;
+using Hospital.Repositories_EF_;
+using Hospital.Repositories_EF_.Repositories.EF;
 using Ninject;
 
 namespace Hospital.Infrastructe
@@ -26,7 +29,8 @@ namespace Hospital.Infrastructe
 
 		private void AddBindings()
 		{
-			
+			_kernel.Bind<IPatientRepository, PatientRepository>();
+			_kernel.Bind<IDoctorRepository, DoctorRepository>();
 		}
 	}
 }

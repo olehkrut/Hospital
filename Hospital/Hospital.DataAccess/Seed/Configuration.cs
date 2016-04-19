@@ -1,7 +1,7 @@
 using System.Data.Entity;
 using Hospital.Domain.Entities;
 
-namespace Hospital.DataAccess
+namespace Hospital.DataAccess.Seed
 {
 	internal sealed class Configuration : DropCreateDatabaseAlways<HospitalDbContext>
 	{
