@@ -5,7 +5,7 @@ namespace Hospital.Domain.IServices
 {
 	public interface IPatientService
 	{
-		List<IPatientService> LoadAllPatients();
+		List<Patient> LoadAllPatients();
 		Patient FindPatientById(int id);
 		void RegisterNewPatient(Patient patient);
 		void UpdatePatient(Patient patient);

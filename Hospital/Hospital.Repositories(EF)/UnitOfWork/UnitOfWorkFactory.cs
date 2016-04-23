@@ -2,7 +2,7 @@
 
 namespace Hospital.Repositories_EF_.UnitOfWork
 {
-	class UnitOfWorkFactory : IUnitOfWorkFactory
+	public class UnitOfWorkFactory : IUnitOfWorkFactory
 	{
 		public IUnitOfWork GetUnitOfWork()
 		{
