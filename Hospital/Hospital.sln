@@ -10,8 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.DataAccess", "Hospital.DataAccess\Hospital.DataAccess.csproj", "{E5615C3F-20BA-4227-B960-BB92E22BAF9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Repositories(EF)", "Hospital.Repositories(EF)\Hospital.Repositories(EF).csproj", "{0EF00950-3D45-4784-BD1A-F5A960F42B99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E5615C3F-20BA-4227-B960-BB92E22BAF9F} = {E5615C3F-20BA-4227-B960-BB92E22BAF9F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Services", "Hospital.Services\Hospital.Services.csproj", "{13D00E59-45C9-442F-AB1D-B53344D18971}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EF00950-3D45-4784-BD1A-F5A960F42B99} = {0EF00950-3D45-4784-BD1A-F5A960F42B99}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
