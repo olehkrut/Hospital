@@ -35,11 +35,11 @@ namespace Hospital.Infrastructe
 
 		private void AddBindings()
 		{
-			_kernel.Bind<IUnitOfWorkFactory, UnitOfWorkFactory>();
-			_kernel.Bind<IPatientRepository, PatientRepository>();
-			_kernel.Bind<IDoctorRepository, DoctorRepository>();
-			_kernel.Bind<IDoctorService, DoctorService>();
-			_kernel.Bind<IPatientService, PatientService>();
+			_kernel.Bind<IUnitOfWorkFactory>().To<UnitOfWorkFactory>();
+			_kernel.Bind<IPatientRepository>().To<PatientRepository>();
+			_kernel.Bind<IDoctorRepository>().To<DoctorRepository>();
+			_kernel.Bind<IDoctorService>().To<DoctorService>();
+			_kernel.Bind<IPatientService>().To<PatientService>();
 		}
 	}
 }

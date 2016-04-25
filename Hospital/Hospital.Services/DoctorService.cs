@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System.Data.Entity;
+using System.Linq;
+using Hospital.Domain.Entities;
 using Hospital.Domain.IServices;
 using Hospital.Domain.IUnitOfWork;
 
@@ -17,7 +19,7 @@ namespace Hospital.Services
 		{
 			using (IUnitOfWork uow = _factory.GetUnitOfWork())
 			{
-				return uow.DoctorRepository.GetAll().ToList();
+				return uow.DoctorRepository.GetAll().Include(d => d.Patients).ToList();
 			}
 		}
 
@@ -25,7 +27,7 @@ namespace Hospital.Services
 		{
 			using (IUnitOfWork uow = _factory.GetUnitOfWork())
 			{
-				return uow.DoctorRepository.FindById(id);
+				return uow.DoctorRepository.FindByIdWithPatientsInfo(id);
 			}
 		}
 

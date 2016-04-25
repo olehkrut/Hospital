@@ -2,7 +2,9 @@
 
 namespace Hospital.Domain.IRepositories
 {
-	public interface IPatientRepository : IGenericRepository<Patient>
+	public interface 
+		IPatientRepository : IGenericRepository<Patient>
 	{
+		Patient FindByIdWithDoctorInfo(int id);
 	}
 }

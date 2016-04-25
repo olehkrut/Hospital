@@ -9,7 +9,7 @@ namespace Hospital.DataAccess
 	{
 		public DbSet<Doctor> Doctors { get; set; }
 		public DbSet<Patient> Patients { get; set; }
-		public HospitalDbContext() : base("HospitalContext") 
+		public HospitalDbContext() : base("HospitalDbContext") 
 		{
 			Database.SetInitializer<HospitalDbContext>(new Configuration());
 		}

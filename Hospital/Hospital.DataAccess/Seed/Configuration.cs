@@ -19,7 +19,6 @@ namespace Hospital.DataAccess.Seed
 			context.Patients.Add(new Patient { FirstName = "Barack", LastName = "Obama", Disease = "Stomachache", Doctor = doc2 });
 			context.Patients.Add(new Patient { FirstName = "Jack", LastName = "Sparrow", Disease = "Cancer", Doctor = doc1 });
 			context.SaveChanges();
-
 		}
 	}
 }
